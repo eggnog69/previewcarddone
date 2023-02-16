@@ -1,0 +1,126 @@
+body {
+
+    background-color: white;
+}
+
+
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    margin-top: 5px;
+    color: hsl(212, 21%, 14%);
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.background {
+    background-color: hsl(30, 38%, 92%);
+    width: 95%;
+    height: 80%;
+    z-index: -100;
+    position: absolute;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.322);
+
+}
+
+.content {
+    background-color: white;
+    width: 310px;
+    height: 482px;
+    float: left;
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+
+}
+
+.text {
+
+    font-size: 14px;
+    position: relative;
+    background-color: white;
+    z-index: 100;
+    width: 250px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: inline-block;
+    height: 27rem;
+    margin: auto;
+
+}
+
+#perfume {
+    width: 100%;
+    height: 100%;
+    float: right;
+
+}
+
+.border {
+    border: rgba(0, 0, 0, 0) solid 5px;
+    border-radius: 3%;
+    color: black;
+    width: 620px;
+    height: 482px;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+button {
+    margin-top: 30px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    color: white;
+    background-color: #427966;
+    border: rgba(0, 0, 0, 0) solid 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.dollar {
+    color: #427966;
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+}
+
+.sale {
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-left: 15px;
+    display: inline-block;
+
+}
+
+p span {
+    padding-top: 40px;
+}
